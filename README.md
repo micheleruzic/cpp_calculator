@@ -4,7 +4,6 @@ Simple C++ Calculator made for educational purposes to help people get started w
 Features:
 <ul>
 <li>Addition, Subtraction, Multiplication, Division</li>
-<LI>Wrong operation alert</li>
-<li>
+<li>Wrong operation alert</li>
 </ul>
 
