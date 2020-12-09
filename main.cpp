@@ -22,7 +22,10 @@ int main() {
             cout << a << "*" << b << "=" << a * b;
             break;
         case '/':
-            cout << a << "/" << b << "=" << a / b;
+            if (b != 0)
+                cout << a << "/" << b << "=" << a / b;
+            else
+                cout << "ERROR, It's not possible to divide by zero" << endl;
             break;
         case '%':
             if (a > b){
